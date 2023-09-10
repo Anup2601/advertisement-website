@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,500&family=PT+Mono&family=Poppins:ital,wght@1,300;1,700&family=Roboto:wght@400;500&display=swap');
+   body{  
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    background-size: cover;
+    height: 95hv;  
+ }  
+*{
+    margin-right: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+/* --------------header---------------- */
+.header-contant{
+    font-size: large;
+    color: rgb(243, 241, 241);
+    text-align: center;
+    text-transform: capitalize;
+}
+a{
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+}
+
+/* ------------------nave bar-------------------- */
+nav ul li{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    font-size:  3.0rem;
+    text-transform: capitalize;
+    margin: 1.5rem 2rem;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7.5rem;
+    background-color: aqua;
+    float: inline-end; 
+    position: sticky;
+    top: 0%;
+}
+nav a:hover{
+    border-bottom: 0.2rem solid rgb(16, 12, 12);
+    font-size: 4rem;
+}
+
+/* --------------------heading-------------- */
+h1{
+    text-align: center;
+    background-color: rgb(195, 196, 196);
+    color: black;
+    text-transform: capitalize;
+    padding: 1rem;
+    font-size: 5rem;    
+}
+h1:hover{
+    font-size: 7rem;
+    box-shadow: 0 0 1rem cyan, 0 0 2rem cyan, 0 0 5rem cyan, 0 0 10rem cyan,0 0 20rem cyan;
+    color: aqua;
+}
+.s1 h2{
+    background-color: lightcyan;
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+}
+h2:hover{
+    box-shadow: 0 0 1rem cyan, 0 0 2rem cyan, 0 0 5rem cyan, 0 0 10rem cyan,0 0 20rem cyan;
+    color: aqua;
+    font-size: 4rem;
+}
+.c1 p{
+    font-size: 2rem;
+    color: white;
+}
+.c2 p{
+    font-size: 2rem;
+    color: white;
+}
+.c3 p{
+    font-size: 2rem;
+    color: white;
+}
+.c4 p{
+    font-size: 2rem;
+    color: white;
+}
+.c5 p{
+    font-size: 2rem;
+    color: white;
+}
+.c6 p{
+    font-size: 2rem;
+    color: white;
+}
+.c7 p{
+    font-size: 2rem;
+    color: white;
+}
+.c8 p{
+    font-size: 2rem;
+    color: white;
+}
+.c1 p:hover{
+    color: aqua;
+}
+.c2 p:hover{
+    color: aqua;
+}
+.c3 p:hover{
+    color: aqua;
+}
+.c4 p:hover{
+    color: aqua;
+}
+.c5 p:hover{
+    color: aqua;
+}
+.c6 p:hover{
+    color: aqua;
+}
+.c7 p:hover{
+    color: aqua;
+}
+.c8 p:hover{
+    color: aqua;
+}
+.box1{
+    float: left;
+    width: 30%;
+     
+}  
+.box2{
+    float: left;
+    width: 70%;
+    font-size: 1.6rem;
+}
+.gallery img{
+    width:   43rem;
+}
+.gallery{
+    margin: 1rem;
+}
+.c{
+    clear: both;
+}
+.c2,.c1,.c3,.c4,.c5,.c6,.c7,.c8 p{
+    background-color: black;
+    padding: 2rem;
+}
+.c2 img{
+    padding: 1rem;
+}
+.c3 img{
+    padding: 1rem;
+    margin-top: 10rem;
+}
+img:hover{
+    box-shadow: 0 0 1rem cyan, 0 0 2rem cyan, 0 0 5rem cyan, 0 0 10rem cyan,0 0 20rem cyan;
+}
+
+/* ------------------footer----------------- */
+.footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: gray;
+    margin-top: 0rem;
+    font-size: 2rem;
+}
+.footer:hover{
+    background-color: black;
+    box-shadow: 0 0 1rem cyan, 0 0 2rem cyan, 0 0 5rem cyan, 0 0 10rem cyan,0 0 20rem cyan;
+    color: aqua;
+}
+.footer p{
+    font-size: 2rem;
+}
+
+/* ------------------media----------------- */
+@media(max-width:997px){
+    *{
+        font-size:    62.5%;
+    }
+}
+@media(max-width:766px){
+    *{
+        font-size: 62.5%;
+    }
+    .c2 img{
+        width: 33rem;
+    }
+    .c3 img{
+        width: 33rem;
+        margin-top: 0%;
+    }
+    .box2{
+        width: 100%;
+    }
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,500&family=PT+Mono&family=Poppins:ital,wght@1,300;1,700&family=Roboto:wght@400;500&display=swap');
+   body{  
+    font-family: 'Montserrat', sans-serif;
+    background:  wheat;
+    background-size: cover;
+ }  
+*{
+    margin-right: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    text-align: center;
+}
+
+/* -----------------nav bar------------------ */
+nav ul li{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    font-size:  3rem;
+    text-transform: capitalize;
+    margin: 1.5rem 2.0rem; 
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7.5rem;
+    background-color: aqua;
+    float: inline-end;
+    position: sticky;
+    top: 0%;
+}
+nav a:hover{
+    border-bottom: 0.2rem solid rgb(16, 12, 12);
+    font-size: 4rem;
+
+}
+/* ----------------heading------------------ */
+.header-contant{
+    font-size: large;
+    color: rgb(243, 241, 241);
+    text-align: center;
+    text-transform: capitalize;
+}
+a{
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+}
+#lines{
+    color: rgb(249, 3, 3);
+    text-align: center;
+    text-transform: capitalize;
+    font-size:  3rem;   
+}
+
+/* ---------------footer--------------- */
+.footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: gray;
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+.footer:hover{
+    background-color: black;
+    box-shadow: 0 0 1rem cyan, 0 0 2rem cyan, 0 0 5rem cyan, 0 0 10rem cyan,0 0 20rem cyan;
+    color: aqua;
+}
+.d1{
+    font-size: 4rem;
+}
+/* -----------button---------------- */
+button{
+    box-shadow: 0 0  5px cyan, 0 0 25px cyan ;
+   margin-top: 10rem;
+    font-size: 4rem;
+     background-color: aqua;
+     border-color:cyan ;
+     /* padding: 5rem; */
+     width: 20rem;
+     height: 5rem;
+}
+button:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 50px cyan, 0 0 100px cyan, 0 0 150px cyan, 0 0 200px cyan, 0 0 500px cyan;
+     
+}
+
+/* ------------------media----------------- */
+@media(max-width:997px){
+    *{
+        font-size:    62.5%;
+    }
+}
+@media(max-width:766px){
+    *{
+        font-size: 62.5%;
+    }
+}

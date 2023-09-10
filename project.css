@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,500&family=PT+Mono&family=Poppins:ital,wght@1,300;1,700&family=Roboto:wght@400;500&display=swap');
+/* #####################body################## */
+   body{  
+    font-family: 'Montserrat', sans-serif;
+    background: url("project2.jpg"); 
+    background-size: cover;
+ }  
+*{
+    margin-right: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;   
+}
+html{
+    font-size: 62.5%;
+}
+
+/* ########################header################## */
+.header-contant{
+    font-size: large;
+    color: rgb(243, 241, 241);
+    text-align: center;
+    text-transform: capitalize;    
+}
+a{
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+}
+
+/* ##########################nave bar################### */
+nav ul li{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    font-size:  2.0rem;
+    text-transform: capitalize;
+    margin: 1.5rem 2.0rem;
+    /* margin-top: 100rem; */
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 7.5rem;
+    /* width: 150rem; */
+    background-color: aqua;
+    float: inline-end; 
+    position: sticky;
+    top: 0%;
+    /* margin-bottom: 400px; */
+}
+nav a:hover{
+    border-bottom:  0.2rem solid rgb(16, 12, 12);
+    font-size: 4rem;
+}
+.header-contant{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5rem,1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+    color: red;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 2.0rem;
+    /* margin: px; */
+}
+.header-contant:hover{
+    color: red;
+}
+.btn:hover{
+    color: rgb(6, 6, 6);
+    box-shadow: 0 0 1rem cyan, 0 0 2rem cyan, 0 0 5rem cyan, 0 0 10rem cyan,0 0 20rem cyan;
+    opacity: 70%;
+    background-color:  cyan;
+}
+.header-contant h1{
+    margin-top: 5.0rem;
+}
+.f1{
+    color: aliceblue;
+
+}
+.f2{
+    color: aqua;
+}
+
+/* #####################feature################### */
+.feature{
+     max-width: 120rem;
+     width: 90%;
+     margin: 0 auto;
+     padding: 2rem 0;
+}
+.box-wrapper{
+    text-align: center;
+    color:  white;
+    font-size: 2rem;
+    box-shadow: 0 0 1rem cyan, 0 0 2rem cyan, 0 0 5rem cyan, 0 0 10rem cyan,0 0 20rem cyan;
+}
+.box-wrapper::after{
+    display: block;
+    clear: both;
+    content: "";
+}
+.box1{
+    float: left;
+    width: 33.33%;
+    background-color: gray;   
+}
+.box2{
+    float: left;
+    width: 33.33%;
+    background-color: red;
+}
+.box3{
+    float: left;
+    width: 33.33%;
+    background-color: gray;
+}
+h2{
+    text-transform: capitalize;
+    color: black;
+}
+  .box1:hover{
+    color: black;
+    box-shadow: 0 0 1rem  gray, 0 0 2rem  gray, 0 0 5rem  gray, 0 0 10rem  gray,0 0 20rem  gray;
+  }
+  .box2:hover{
+    color: black;
+    box-shadow: 0 0 1rem  red, 0 0 2rem  red, 0 0 5rem  red, 0 0 10rem  red,0 0 20rem  red;
+  }
+  .box3:hover{
+    color: black;
+    box-shadow: 0 0 1rem  gray, 0 0 2rem  gray, 0 0 5rem  gray, 0 0 10rem  gray,0 0 20rem  gray;
+  }
+
+/* ####################footer################# */
+.footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: gray;
+    margin-top: 7.5rem;
+    position: sticky;
+    bottom: 0%;
+    font-size: 1.6rem;
+}
+.footer:hover{
+    background-color: black;
+    color: cyan;
+    box-shadow: 0 0 1rem cyan, 0 0 2rem cyan, 0 0 5rem cyan, 0 0 10rem cyan,0 0 20rem cyan;
+}
+
+/* ##################### meadia ################### */
+@media(max-width:998px){
+    *{
+        font-size:    95%;
+    }
+}
+@media(max-width:767px){
+    *{
+        font-size: 75%;
+    }
+}

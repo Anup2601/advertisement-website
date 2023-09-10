@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/2c4c4b13f9.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+</head>
+<body>
+
+    <header class="header">
+       
+<!-- ---------------nav bar------------- -->
+        <nav class="nav">
+         <ul class="nav-item">
+            <li><a href="./project.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+         </ul>
+        </nav>
+
+<!-- ------------------body----------------------- -->
+        <div class="d1"> 
+            <h1 id="lines">  Input your details</h1>
+            <form  method="GET" action="thankyou.html">
+                <label for="username">Username:</label>
+                <input type="text" id="username"placeholder=" Username" required> <br> <br>
+        
+                <label for="passward">Passward:</label>
+                <input type="password" id=" passward" placeholder="Passward"required> <br> <br>
+        
+                <label for="  email">Email Id: </label>
+                <input type="  email" id="email  "placeholder="Email Id" required> <br> <br>
+                <p> 
+                    <b id="lines">select your gender</b> 
+                </p>
+                <label for="Male">Male:</label>
+                <input type="radio" name=" gender" id="Male" value="Male"><br>
+        
+                <label for="female">female:</label>
+                <input type="radio" name=" gender" id="female" value="Male"><br>
+        
+                <label for=" other"> other:</label>
+                <input type="radio" name=" gender" id=" other" value="Male"><br>
+        
+                <label for="age group"><b id="lines">select your age group</b> </label>
+                <select name="age-group-value" id="age-group"> 
+                <option  value="0-10">0-10</option> 
+                <option  value="11-20">11-20</option> 
+                <option value="21-40">21-40</option> 
+                <option value="41-60">41-60</option> 
+                <option value="60+"> 60+</option> 
+                </select><br>
+                <p id="lines">Your Query </p>
+                <textarea name="" id="" cols="40" rows="10" placeholder="Type Here"></textarea>
+                <br><br>
+                <div  id="lines">Date Of Birth: <input type="date" name="" id=""><br></div>   
+            </div>
+                <button>Submit</button>
+            </form>
+        </section>
+
+<!-- -----------------footer---------------- -->
+        <footer class="footer">
+          <div class="social-media">
+           <i class="fa-brands fa-instagram fa-3x"></i>
+           <i class="fa-brands fa-twitter fa-3x"></i>
+           <i class="fa-brands fa-facebook fa-3x"></i>
+           <i class="fa-brands fa-linkedin fa-3x"></i>
+           <i class="fa-brands fa-whatsapp fa-3x"></i>
+          </div>
+          <p>Anup Mishra &copy; 2023 All Right Reserved</p>
+        </footer>
+</body>
+</html>
